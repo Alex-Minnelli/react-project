@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import React, { Component } from "react";
+import React from "react";
 import './App.css';
 
 export default class App extends React.Component {
