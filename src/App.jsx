@@ -1,4 +1,5 @@
 import React from "react";
+import FilmsList from './components/filmsList'
 import './App.css';
 
 export default class App extends React.Component {
@@ -33,6 +34,7 @@ export default class App extends React.Component {
             return <li key={index}>{ele}</li>
           })}
         </ul>
+        <FilmsList />
       </div>
     );
   }
